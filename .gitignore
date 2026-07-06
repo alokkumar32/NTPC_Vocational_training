@@ -1,0 +1,63 @@
+# GSD project management files (local only)
+.gsd/
+
+# Agent configuration
+.agents/
+.agent/
+.gemini/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Node.js
+node_modules/
+.next/
+out/
+.cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Model files (too large for git)
+*.pt
+*.onnx
+*.engine
+models/
+
+# Dataset files
+datasets/
+runs/
+
+# Binaries and third-party tools
+bin/
+
+# Local screenshots and database
+backend/static/screenshots/
+backend/violations.db
+
+# Notebook raw dataset and training runs
+notebooks/raw_dataset/
+notebooks/ntpc_ppe/
+
